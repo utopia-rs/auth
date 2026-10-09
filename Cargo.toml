@@ -14,9 +14,9 @@ hex = "0.4"
 hmac = "0.12"
 indexmap = "2"
 md-5 = "0.10"
+openssl = "0.10"
 p256 = { version = "0.13", default-features = false, features = ["ecdsa", "pkcs8", "std"] }
 php-std = { version = "0.1.0", git = "https://github.com/utopia-rs/php-std" }
-rsa = { version = "0.9", features = ["sha2", "getrandom"] }
 serde_json = { version = "1", features = ["raw_value", "preserve_order", "float_roundtrip"] }
-sha2 = { version = "0.10", features = ["oid"] }
+sha2 = "0.10"
 thiserror = "2"
