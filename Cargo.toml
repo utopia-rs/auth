@@ -14,6 +14,8 @@ hex = "0.4"
 hmac = "0.12"
 indexmap = "2"
 md-5 = "0.10"
+num-bigint = { version = "0.4", default-features = false, features = ["std"] }
+num-integer = { version = "0.1", default-features = false, features = ["std"] }
 openssl = "0.10"
 p256 = { version = "0.13", default-features = false, features = ["ecdsa", "pkcs8", "std"] }
 php-std = { version = "0.1.0", git = "https://github.com/utopia-rs/php-std" }
@@ -22,4 +24,5 @@ sha2 = "0.10"
 thiserror = "2"
 
 [package.metadata.utopia]
-php-sync = "53360097f4bfe774d041ea1e3cd97c24802ae840"
+category = "security"
+php-sync = "da0119eda7c139b8f99b13d814e5a99f9b5ac418"
