@@ -1,6 +1,6 @@
 [package]
 name = "utopia-auth"
-description = "Password hashes, proofs, session stores, JWT issuers and verifiers, OAuth2 server values and WebAuthn passkeys with utopia-php/auth semantics."
+description = "Password hashing, proofs, session stores, JWT issuers and verifiers, OAuth2 server values and WebAuthn passkeys."
 version = "0.1.0"
 edition = "2024"
 rust-version = "1.88"
@@ -20,3 +20,6 @@ php-std = { version = "0.1.0", git = "https://github.com/utopia-rs/php-std" }
 serde_json = { version = "1", features = ["raw_value", "preserve_order", "float_roundtrip"] }
 sha2 = "0.10"
 thiserror = "2"
+
+[package.metadata.utopia]
+php-sync = "53360097f4bfe774d041ea1e3cd97c24802ae840"
