@@ -24,4 +24,4 @@ sha2 = "0.10"
 thiserror = "2"
 
 [package.metadata.utopia]
-php-sync = "da0119eda7c139b8f99b13d814e5a99f9b5ac418"
+php-sync = "43271113321d9096408a79fee7e93f26c6dbde2b"
